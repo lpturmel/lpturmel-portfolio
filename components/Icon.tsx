@@ -1,15 +1,12 @@
-import React from "react";
+import { ReactNode } from "react";
+import { SiTypescript } from "react-icons/si";
 
 export interface IconProps {
-    path: string;
+    icon: ReactNode;
 }
 
-const Icon: React.FunctionComponent<IconProps> = ({ path }) => {
-    return (
-        <div>
-            <img className="w-20 m-2" src={path} />
-        </div>
-    );
+const Icon: React.FunctionComponent<IconProps> = ({ icon }) => {
+    return <div>{icon}</div>;
 };
 
 export default Icon;
