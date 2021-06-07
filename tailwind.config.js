@@ -5,7 +5,12 @@ module.exports = {
     ],
     darkMode: false, // or 'media' or 'class'
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                "bg-gray": "#C3C5CB",
+                "icon-color": "#858995",
+            },
+        },
     },
     variants: {
         extend: {},

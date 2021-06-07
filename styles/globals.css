@@ -1,16 +1,30 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.scrollDown {
+    animation: float 4s ease-in-out infinite;
+}
+.popRight:hover {
+    animation: pop 1s ease-in-out infinite;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@keyframes float {
+    0% {
+        transform: translatey(0px) rotate(90deg);
+    }
+    50% {
+        transform: translatey(20px) rotate(90deg);
+    }
+    100% {
+        transform: translatey(0px) rotate(90deg);
+    }
 }
 
-* {
-  box-sizing: border-box;
+@keyframes pop {
+    0% {
+        transform: translatex(0px);
+    }
+    50% {
+        transform: translatex(10px);
+    }
+    100% {
+        transform: translatex(0px);
+    }
 }
