@@ -50,7 +50,7 @@ export default function Home() {
             <main className="h-full p-8 flex flex-col text-center font-mono">
                 <div className="w-full flex flex-wrap flex-row justify-center space-x-16 absolute m-auto top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2">
                     <img
-                        className="w-26 h-26 lg:w-80 rounded-full"
+                        className="w-26 h-26 lg:w-80 lg:h-80 rounded-full"
                         src="/lp.jpg"
                     ></img>
                     <motion.div

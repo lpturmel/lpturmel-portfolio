@@ -10,7 +10,7 @@ export interface SectionProps {
 const Section: FunctionComponent<SectionProps> = (props) => {
     return (
         <div
-            className={`${props.bg} md:w-1/2 mb-16 w-full h-screen mx-auto relative text-left p-4`}
+            className={`${props.bg} md:w-1/2 mb-16 w-full min-h-screen mx-auto relative text-left p-4`}
             id={props.id}
         >
             <p className="text-purple-500 font-semibold text-2xl">

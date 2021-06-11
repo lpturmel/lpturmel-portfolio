@@ -4,7 +4,7 @@ export interface FooterProps {}
 
 const Footer: React.FunctionComponent<FooterProps> = () => {
     return (
-        <div className="h-1/4 text-2xl bg-bg-gray font-bold text-center flex align-middle">
+        <div className="h-1/5 text-xl bg-bg-gray font-bold text-center flex align-middle">
             <p className="m-auto text-icon-color">
                 © Copyright 2021. Louis-Philippe Turmel. All Rights Reserved.
             </p>
