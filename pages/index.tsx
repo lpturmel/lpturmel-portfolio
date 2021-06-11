@@ -4,6 +4,7 @@ import React from "react";
 import {
     SiAmazonaws,
     SiAzuredevops,
+    SiC,
     SiCplusplus,
     SiCsharp,
     SiCss3,
@@ -171,9 +172,7 @@ export default function Home() {
                             }
                         />
                         <Icon
-                            icon={
-                                <SiPython className="w-16 h-16 text-icon-color" />
-                            }
+                            icon={<SiC className="w-16 h-16 text-icon-color" />}
                         />
                     </div>
                     <div className="flex flex-row align-middle justify-evenly">
