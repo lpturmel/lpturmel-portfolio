@@ -8,7 +8,7 @@ const Socials: React.FunctionComponent<SocialsProps> = () => {
         <div className="absolute top-1/2 flex flex-col justify-evenly transform -translate-y-1/2 z-50">
             <a
                 className="popRight"
-                href="https://github.com/ghostjester"
+                href="https://github.com/lpturmel"
                 target="_blank"
             >
                 <SiGithub className="w-8 h-8 m-2" />
