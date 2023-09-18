@@ -17,7 +17,6 @@ export class AwsStack extends cdk.Stack {
     });
 
 
-    // simple s3 bucket + cloudfront distribution
     const bucket = new cdk.aws_s3.Bucket(this, 'bucket', {
         bucketName: 'louisphilippeturmel.com',
         websiteIndexDocument: 'index.html',
