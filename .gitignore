@@ -29,3 +29,5 @@ yarn-error.log*
 .env.production.local
 
 /target
+
+output.css
